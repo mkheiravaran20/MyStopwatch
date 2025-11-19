@@ -71,7 +71,7 @@ const Controls = ({ onStart, onStop, onReset, isRunning }) => {
 };
 
 // Main Stopwatch component
-const Stopwatch = () => {
+const Stopwatch = () => { 
   const [time, setTime] = useState(0); // Stores elapsed time in milliseconds
   const [isRunning, setIsRunning] = useState(false); // Tracks if stopwatch is running
   const intervalRef = useRef(null); // Stores the setInterval ID to clear later
