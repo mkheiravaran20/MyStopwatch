@@ -65,7 +65,7 @@ const Controls = ({ onStart, onStop, onReset, isRunning }) => {
         aria-label="Reset the stopwatch"
       >
         Reset
-      </button>
+      </button> 
     </div>
   );
 };
